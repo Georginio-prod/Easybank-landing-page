@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-auto flex pt-5 px-40">
+    <div class="w-full h-auto flex pt-5 px-40  bg-red-700">
         <div class="w-full flex justify-between items-center">
             <img src="/public/logo.svg" alt="logo">
 

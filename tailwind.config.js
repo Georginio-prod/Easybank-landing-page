@@ -8,6 +8,12 @@ export default {
     extend: {
       colors: {
         gris: '#979797',
+        bgc: '#FAFAFA',
+        cl:'#9597A5',
+        lin: '#33D35E',
+        lin2: '#2AB6D9',
+        col:'#2D314D',
+        gris2: '#F4F5F7'
       }
     },
   },

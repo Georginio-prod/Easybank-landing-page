@@ -11,17 +11,20 @@
                     for spending, saving, budgeting, investing, and much more.
                 </h3>
 
-                <button class="cursor-pointer text-white max-w-[163px] py-3 text-sx bg-gradient-to-t from-lin to-lin2 rounded-full">
+                <button class="cursor-pointer text-white max-w-[163px] py-3 text-sx bg-gradient-to-br from-lin to-lin2 rounded-full">
                     Request Invite
                 </button>
                
             </div>
         </div>
 
-        <div class="relative z-10">
-            <img src="/public/bg-intro-desktop.svg" alt="bac" class="transform -translate-y-1 ">
-            <div class="absolute top-0 left-0 transform  z-10">
-                <img src="/public/image-mockups.png" alt="mockups" class="transform translate">
+        <div class="relative z-10  ">
+            <div class="overflow-hidden">
+                <img src="/public/bg-intro-desktop.svg" alt="bac" class="transform -translate-y-36 translate-x-40 ">
+
+            </div>
+            <div class="absolute top-0 left-0 transform  z- overflow-hidden">
+                <img src="/public/image-mockups.png" alt="mockups" class="transform -translate-y-32 translate-x-40">
             </div>
         </div>
 
@@ -113,7 +116,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-72 bg-white">
+            <div class="flex flex-col w-72 bg-white rounded-md">
                 <img src="/public/image-restaurant.jpg" alt="money" class="overflow-hidden rounded-t-lg">
                 <div class="px-6">
                     <p class="text-xs text-cl pt-5">
@@ -130,7 +133,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-72 bg-white">
+            <div class="flex flex-col w-72 bg-white rounded-md">
                 <img src="/public/image-plane.jpg" alt="money" class="overflow-hidden rounded-t-lg">
                 <div class="px-6">
                     <p class="text-xs text-cl pt-5">
@@ -147,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-72 bg-white">
+            <div class="flex flex-col w-72 bg-white rounded-md">
                 <img src="/public/image-confetti.jpg" alt="money" class="overflow-hidden rounded-t-lg">
                 <div class="px-6">
                     <p class="text-xs text-cl pt-5">

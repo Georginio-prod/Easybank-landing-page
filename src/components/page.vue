@@ -3,7 +3,7 @@
         <!-- Section de texte -->
         <div class="flex justify-center lg:justify-start lg:pl-40 mb-8 lg:mb-0">
             <div class="flex flex-col w-[90%] lg:w-[447px] text-center lg:text-left">
-                <p class="font-light text-3xl lg:text-6xl text-col pb-6 pt-16">
+                <p class="font-light text-3xl lg:text-6xl text-col pb-6 pt-28">
                     Next generation digital banking
                 </p>
                 <h3 class="text-base lg:text-lg text-cl pb-9">

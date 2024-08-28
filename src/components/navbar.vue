@@ -1,11 +1,11 @@
 <template>
-    <div class="w-full h-auto flex py-7 px-6 lg:px-40 bg-white relative">
+    <div class="w-full h-auto flex py-4 px-6 lg:px-40 bg-white relative">
       <!-- Logo -->
       <div class="flex justify-between items-center w-full">
         <img src="/public/logo.svg" alt="logo">
         
         <!-- Menu pour les écrans lg et plus -->
-        <div class="hidden lg:flex gap-8 justify-center items-center text-cl">
+        <div class="hidden lg:flex gap-8 justify-center items-center text-cl text-sm">
           <button>Home</button>
           <button>About</button>
           <button>Contact</button>
@@ -15,7 +15,7 @@
   
         <!-- Bouton de demande d'invitation -->
         <div class="hidden lg:block">
-          <button class="text-white bg-gradient-to-br from-lin to-lin2 px-8 py-3 rounded-full font-bold">
+          <button class="text-white bg-gradient-to-br text-sm from-lin to-lin2 px-8 py-3 rounded-full font-bold">
             Request Invite
           </button>
         </div>

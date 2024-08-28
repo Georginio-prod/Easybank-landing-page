@@ -14,7 +14,7 @@
         </div>
   
         <!-- Sections de liens -->
-        <div class="flex flex-col lg:flex-row justify-between lg:justify-start lg:items-start lg:space-x-20 text-center lg:text-left">
+        <div class="flex flex-col lg:flex-row justify-between lg:justify-start lg:items-start lg:space-x-28 text-center lg:text-left text-[15px] tracking-[-0.23px] leading-[26px]">
           <div class="flex flex-col gap-2 lg:items-start">
             <button>About Us</button>
             <button>Contact</button>
@@ -29,10 +29,10 @@
   
         <!-- Section bouton et copyright -->
         <div class="flex flex-col items-center lg:ml-auto text-center lg:text-right mt-6 lg:mt-0">
-          <button class="text-white bg-gradient-to-br from-lin to-lin2 px-8 py-3 rounded-full font-bold lg:ml-16">
+          <button class="text-white bg-gradient-to-br from-lin to-lin2 px-8 py-3 rounded-full text-sm font-bold lg:ml-16">
             Request Invite
           </button>
-          <p class="opacity-50 mt-4 lg:mt-6">© Easybank. All Rights Reserved</p>
+          <p class="opacity-50 mt-4 lg:mt-6 text-[15px] tracking-[-0.23px]">© Easybank. All Rights Reserved</p>
         </div>
       </div>
     </div>

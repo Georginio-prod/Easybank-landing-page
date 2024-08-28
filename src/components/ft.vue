@@ -14,13 +14,13 @@
         </div>
   
         <!-- Sections de liens -->
-        <div class="flex flex-col lg:flex-row justify-between lg:justify-start lg:space-x-20 text-center lg:text-left">
-          <div class="flex flex-col gap-2">
+        <div class="flex flex-col lg:flex-row justify-between lg:justify-start lg:items-start lg:space-x-20 text-center lg:text-left">
+          <div class="flex flex-col gap-2 lg:items-start">
             <button>About Us</button>
             <button>Contact</button>
             <button>Blog</button>
           </div>
-          <div class="flex flex-col gap-2 mt-4 lg:mt-0">
+          <div class="flex flex-col gap-2 mt-4 lg:mt-0 lg:items-start">
             <button>Careers</button>
             <button>Support</button>
             <button>Privacy Policy</button>

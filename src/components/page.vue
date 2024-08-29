@@ -1,7 +1,7 @@
 <template>
     <div class="h-auto flex flex-col-reverse lg:flex-row justify-center items-center bg-bgc">
         <!-- Section de texte -->
-        <div class="flex justify-center lg:justify-start lg:-translate-y-24 lg:pl-40 mb-8 lg:mb-0">
+        <div class="flex justify-center lg:justify-start lg:-translate-y-20 lg:pl-40 mb-8 lg:mb-0">
             <div class="flex flex-col w-[90%] lg:w-[447px] text-center lg:text-left">
                 <p class="font-light text-3xl lg:text-[56px] lg:leading-[64px] lg:tracking-[-1px] text-col pb-6 pt-28">
                     Next generation digital banking
@@ -11,7 +11,7 @@
                     for spending, saving, budgeting, investing, and much more.
                 </h3>
                 <button
-                    class="cursor-pointer text-white max-w-[163px] text-sm py-2 px-4 text-sx bg-gradient-to-br from-lin to-lin2 rounded-full mx-auto lg:mx-0">
+                    class="cursor-pointer text-white max-w-[163px] text-sm py-3 px-4 text-sx bg-gradient-to-br from-lin to-lin2 rounded-full mx-auto lg:mx-0">
                     Request Invite
                 </button>
             </div>
@@ -31,7 +31,7 @@
     </div>
 
     <!-- Section "Why choose Easybank?" -->
-    <div class="w-full bg-gris2 py-16 px-8 lg:py-[96px] lg:px-40">
+    <div class="w-full bg-gris2 py-16 px-8 lg:pt-[130px] lg:pb-16 lg:px-40">
         <div class="flex flex-col items-center lg:items-start">
             <div class="flex flex-col w-full lg:w-[635px] text-center lg:text-left">
                 <p class="text-col font-light text-3xl lg:text-[40px] pb-4">
@@ -46,7 +46,7 @@
             <div class="flex flex-col lg:flex-row gap-8 pt-12 lg:pt-[72px] w-full">
                 <!-- Card 1 -->
                 <div class="flex-1 flex flex-col items-center text-center lg:items-start lg:text-left">
-                    <img src="/public/icon-online.svg" alt="" class="pb-10">
+                    <img src="/public/icon-online.svg" alt="" class="pb-10 ">
                     <p class="pb-6 text-col font-light text-2xl">
                         Online Banking
                     </p>

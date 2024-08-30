@@ -11,7 +11,7 @@
                     for spending, saving, budgeting, investing, and much more.
                 </h3>
                 <button
-                    class="cursor-pointer text-white max-w-[163px] text-sm py-3 px-4 text-sx bg-gradient-to-br from-lin to-lin2 rounded-full mx-auto lg:mx-0">
+                    class="cursor-pointer text-white max-w-[163px] text-sm py-3 transition-opacity hover:opacity-40 px-4 text-sx bg-gradient-to-br from-lin to-lin2 rounded-full mx-auto lg:mx-0">
                     Request Invite
                 </button>
             </div>
@@ -105,7 +105,7 @@
                 <img src="/public/image-currency.jpg" alt="money" class="overflow-hidden rounded-t-lg">
                 <div class="px-6 pb-6">
                     <p class="text-[10px] text-cl pt-5">By Claire Robinson</p>
-                    <h2 class="text-col text-base py-2">Receive money in any currency with no fees</h2>
+                    <h2 class="text-col text-base py-2 cursor-pointer hover:text-lin">Receive money in any currency with no fees</h2>
                     <h3 class="text-[13px] text-cl tracking-[-0.29px]">The world is getting smaller and we’re becoming more mobile. So why
                         should you be forced to only receive money in a single …</h3>
                 </div>
@@ -117,7 +117,7 @@
                 <img src="/public/image-restaurant.jpg" alt="money" class="overflow-hidden rounded-t-lg">
                 <div class="px-6 pb-6">
                     <p class="text-[10px] text-cl pt-5">By Wilson Hutton</p>
-                    <h2 class="text-col text-base py-2"> Treat yourself without worrying about money</h2>
+                    <h2 class="text-col text-base py-2 cursor-pointer hover:text-lin"> Treat yourself without worrying about money</h2>
                     <h3 class="text-[13px] text-cl tracking-[-0.29px]"> Our simple budgeting feature allows you to separate out your spending and set 
                         realistic limits each month. That means you …</h3>
                 </div>
@@ -129,7 +129,7 @@
                 <img src="/public/image-plane.jpg" alt="money" class="overflow-hidden rounded-t-lg">
                 <div class="px-6 pb-6">
                     <p class="text-[10px] text-cl pt-5">By Wilson Hutton</p>
-                    <h2 class="text-col text-base py-2">Take your Easybank card wherever you go</h2>
+                    <h2 class="text-col text-base py-2 cursor-pointer hover:text-lin">Take your Easybank card wherever you go</h2>
                     <h3 class="text-[13px] text-cl tracking-[-0.29px]">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
                         while you’re abroad. We’ll even show you …</h3>
                 </div>
@@ -141,8 +141,8 @@
                 <img src="/public/image-confetti.jpg" alt="money" class="overflow-hidden rounded-t-lg">
                 <div class="px-6 pb-6">
                     <p class="text-[10px] text-cl pt-5">By Claire Robinson</p>
-                    <h2 class="text-col text-base py-2 tracking-[-0.29px]">Our invite-only Beta accounts are now live!</h2>
-                    <h3 class="text-[13px] text-cl"> After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+                    <h2 class="text-col text-base py-2  cursor-pointer hover:text-lin">Our invite-only Beta accounts are now live!</h2>
+                    <h3 class="text-[13px] text-cl tracking-[-0.29px]"> After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
                         It’s easy to request an invite through the site ...</h3>
                 </div>
             </div>

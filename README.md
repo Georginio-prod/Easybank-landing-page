@@ -1,54 +1,73 @@
-# Vue 3 + Vite
+# Easybank — Landing page (Frontend Mentor)
 
-# Easybank landing page
+![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vue.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)
+![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+🔗 **Démo en ligne** : <https://easybank-landing-page-beta-rosy.vercel.app> · GitHub Pages : <https://georginio-prod.github.io/Easybank-landing-page/>
+📦 **Code source** : <https://github.com/Georginio-prod/Easybank-landing-page>
+🎯 **Défi** : [Easybank landing page](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) (niveau *Intermediate*)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
 
+## 📌 Présentation
 
-# Front-end Style Guide
+Landing page d'une **banque en ligne fictive** : héros avec illustration de téléphones,
+section « Why choose Easybank? » (4 avantages), derniers articles du blog et footer complet.
+L'exercice porte sur le **positionnement d'images débordantes**, les dégradés et un
+**menu mobile** animé.
 
-## Layout
+## ✨ Fonctionnalités
 
-The designs were created to the following widths:
+- Héros avec image de fond en débordement (`intro` desktop / mobile).
+- Menu de navigation **responsive** avec ouverture / fermeture sur mobile (overlay).
+- Grille des 4 avantages (Online Banking, Simple Budgeting, Fast Onboarding, Open API).
+- Section « Latest Articles » en cartes.
+- Bouton « Request Invite » avec dégradé et état *hover*.
+- Layout adapté aux breakpoints mobile (375px) et desktop (1440px).
 
-- Mobile: 375px
-- Desktop: 1440px
+## 🛠️ Stack
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+Vue 3 · Vite 5 · Tailwind CSS 3 · PostCSS.
 
-## Colors
+## 📁 Structure
 
-### Primary
+```
+Easybank-landing-page/
+├── src/
+│   ├── App.vue · main.js · style.css
+│   └── components/
+│       ├── navbar.vue      # Navigation + menu mobile
+│       ├── page.vue        # Héros, avantages, articles
+│       └── ft.vue          # Footer
+├── public/                 # Images et icônes de la maquette
+└── tailwind.config.js · vite.config.js
+```
 
-- Dark Blue: hsl(233, 26%, 24%)
-- Lime Green: hsl(136, 65%, 51%)
-- Bright Cyan: hsl(192, 70%, 51%)
+## 🚀 Installation & lancement
 
-### Neutral
+```bash
+git clone https://github.com/Georginio-prod/Easybank-landing-page.git
+cd Easybank-landing-page
+npm install
+npm run dev          # http://localhost:5173
+```
 
-- Grayish Blue: hsl(233, 8%, 62%)
-- Light Grayish Blue: hsl(220, 16%, 96%)
-- Very Light Gray: hsl(0, 0%, 98%)
-- White: hsl(0, 0%, 100%)
+`npm run build` → `dist/` · `npm run preview`.
 
-## Typography
+## 🌐 Déploiement
 
-### Body Copy
+Déployé sur **Vercel** et sur **GitHub Pages** (workflow `gh-page.yml`). Aucune configuration nécessaire.
 
-- Font size: 18px
+---
 
-### Font
+## 👤 Auteur
 
-- Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
-- Weights: 300, 400, 700
+**Komla Etonam Georges EKLOU** (Georginio) — Développeur Full Stack Web & Web3
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
- 
+[![GitHub](https://img.shields.io/badge/GitHub-Georginio--prod-181717?logo=github)](https://github.com/Georginio-prod)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0A66C2?logo=linkedin)](https://www.linkedin.com/in/komla-etonam-georges-eklou-68518b23b)
+[![Portfolio](https://img.shields.io/badge/Portfolio-georginio.w3frame.com-6C63FF)](https://georginio.w3frame.com/)
 
-# vercel 
-https://easybank-landing-page-beta-rosy.vercel.app/
-# gitHub
-
-https://github.com/Georginio-prod/Easybank-landing-page
+> 📚 Tous mes projets sont listés et documentés sur mon [profil GitHub](https://github.com/Georginio-prod).
